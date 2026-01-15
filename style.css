@@ -1,0 +1,27 @@
+body {
+    background: url("images/track.png");
+    background-size: cover;    
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.board {
+    border: 2px solid white;
+    border-radius: 2cm;
+    margin: 15px auto;
+    padding: 20px;
+    width: 40%;
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.599);
+}
+
+.arrived { color: lime; }
+.arriving { color: yellow; }
+.next { color: cyan; }
